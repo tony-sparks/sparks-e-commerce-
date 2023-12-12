@@ -66,6 +66,10 @@ header {
     padding: 20px;
     background: hsl(271, 44%, 78%);
     box-shadow: -2px 0 4px hsl(0 4% 15% / 10%);
+    transition: 0.3s;
+}
+.cart.active {
+    right: 0;
 }
 .cart-title {
     text-align: center;
